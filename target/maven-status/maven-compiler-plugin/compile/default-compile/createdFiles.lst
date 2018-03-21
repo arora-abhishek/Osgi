@@ -1,0 +1,6 @@
+org/osgi/project/impl/StudentServiceImpl.class
+org/osgi/project/Student.class
+org/osgi/project/impl/StudentApplicationImpl.class
+org/osgi/project/service/StudentApplication.class
+org/osgi/project/service/StudentService.class
+org/osgi/project/service/ConfigService.class

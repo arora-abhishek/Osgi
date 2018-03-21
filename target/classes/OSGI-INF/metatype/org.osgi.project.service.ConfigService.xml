@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/org.osgi.project.service.ConfigService">
+  <OCD id="org.osgi.project.service.ConfigService" name="ConfigService" description="Class Configuration">
+    <AD id="getNos" type="Integer" name="NoOfStudents" description="Number of sttudents allowed in class"/>
+    <AD id="getReqMarks" type="Integer" name="ReqMarks" description="Marks req to pass"/>
+  </OCD>
+  <Designate pid="org.osgi.project.impl.StudentApplicationImpl">
+    <Object ocdref="org.osgi.project.service.ConfigService"/>
+  </Designate>
+</metatype:MetaData>
